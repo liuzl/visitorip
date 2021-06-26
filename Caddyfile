@@ -1,5 +1,10 @@
-:2015
+{
+    debug
+    order visitor_ip before respond
+}
 
-respond "Hello, world, 哈哈"
+:2021 {
+    visitor_ip stdout
+    respond "zliu's server"
+}
 
-visitor_ip stdout
