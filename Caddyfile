@@ -1,0 +1,5 @@
+:2015
+
+respond "Hello, world, 哈哈"
+
+visitor_ip stdout
